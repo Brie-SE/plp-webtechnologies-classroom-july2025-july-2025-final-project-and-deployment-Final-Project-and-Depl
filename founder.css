@@ -1,0 +1,46 @@
+.founder-container {
+  background-color: #002B36;
+  color: #EEE8D5;
+  padding: 3rem;
+  max-width: 600px;
+  margin: 5rem auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.founder-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.founder-container .intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #93A1A1;
+}
+
+.bio h2 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #2AA198;
+}
+
+.bio p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.social-icons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+

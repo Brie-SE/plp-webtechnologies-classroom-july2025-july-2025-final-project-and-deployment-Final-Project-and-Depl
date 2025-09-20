@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - Brenda Atieno</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Navigation Bar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 95%;
+      background-color: #1e272e;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #f39c12;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .nav-links li a.active {
+      border-bottom: 2px solid #f39c12;
+    }
+
+    /* About Section */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0a3d62;
+      color: white;
+      padding-top: 100px; /* Space for fixed nav */
+    }
+
+    .about {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 100px 50px;
+      gap: 20px;
+    }
+
+    .about-text {
+      flex: 1;
+      max-width: 600px;
+    }
+
+    .about-text h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    .about-text p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #f39c12;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+   .about-image img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 4px solid #00f0ff;
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.4);
+}
+
+    }
+
+    @media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .about-image img {
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+  }
+}
+
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">BRENDA ATIENO</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section class="about">
+    <div class="about-text">
+      <h1>About Founder</h1>
+      <p>Hi there! I am Brenda Atieno Odhiambo. Founder of Dijitali Maths Club and a software developer with a love for crafting beautiful and functional web solutions. I enjoy problem-solving and have a keen eye for detail. When I amm not coding, you can find me on Pinterest exploring design ideas or curled up with a good book.
+I am also an educator and aspiring software engineer with a passion for blending education and technology. Through my Dijitali Maths Club, I create innovative learning experiences that introduce students to digital literacy and math through engaging tools. I am excited about building solutions that not only solve problems but also empower communities.</p>
+      <a href="contact.html" class="btn">Hire Me</a>
+    </div>
+    <div class="about-image">
+      <img src="images/about_photo.jpg" alt="Brenda Atieno">
+    </div>
+  </section>
+
+</body>
+</html>
+
